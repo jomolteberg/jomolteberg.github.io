@@ -105,6 +105,16 @@ a:visited {
   object-fit: cover;
 }
 
+.readMore {
+  color: #2997ff;
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  font-family: "Space Mono", monospace;
+  text-transform: uppercase;
+}
+
 .projects-container {
   display: flex;
   flex-direction: column;

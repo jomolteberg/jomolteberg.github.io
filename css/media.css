@@ -1,52 +1,54 @@
 @media screen and (max-width: 1024px) {
-    .about-container {
-        flex-direction: column;
-        align-items: center;
-        margin: 0 1.5rem;
-    }
+  .about-container {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 1.5rem;
+  }
 
-    .about-text, .about-image {
-        max-width: 600px;
-    }
+  .about-text,
+  .about-image {
+    max-width: 600px;
+  }
 
-    .about-image img {
-        margin-right: 0;
-        margin-bottom: 20px;
-        border-radius: 10%;
-    }
+  .about-image img {
+    margin-right: 0;
+    margin-bottom: 20px;
+    border-radius: 10%;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .portfolio-container {
-        padding: 20px 10px;
-    }
+  .portfolio-container {
+    padding: 20px 10px;
+  }
 
-    .projects-container {
-        margin-bottom: 2rem;
-    }
+  .projects-container {
+    margin-bottom: 2rem;
+  }
 
-    .project-card {
-        width: 260px;
-        margin: 8px;
-    }
+  .project-card {
+    width: 260px;
+    margin: 8px;
+  }
 
-    .project-card h3, .project-card p {
-        margin: 10px 0;
-    }
+  .project-card h3,
+  .project-card p {
+    margin: 10px 0;
+  }
 }
 
 @media screen and (max-width: 480px) {
-    .about-image img {
-        max-width: 200px;
-        height: 200px;
-    }
+  .about-image img {
+    max-width: 200px;
+    height: 200px;
+  }
 
-    .about-text {
-        font-size: 1rem;
-        max-width: 400px;
-    }
+  .about-text {
+    font-size: 1rem;
+    max-width: 400px;
+  }
 
-    .project-card {
-        width: 100%;
-    }
+  .project-card {
+    width: 100%;
+  }
 }

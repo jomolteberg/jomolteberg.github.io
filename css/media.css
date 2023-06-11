@@ -1,0 +1,47 @@
+@media screen and (max-width: 1024px) {
+    .about-container {
+        flex-direction: column;
+        align-items: center;
+        margin: 0 1.5rem;
+    }
+
+    .about-text, .about-image {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .about-image img {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .portfolio-container {
+        padding: 20px 10px;
+    }
+
+    .projects-container {
+        margin-bottom: 2rem;
+    }
+
+    .project-card {
+        width: 260px;
+        margin: 8px;
+    }
+
+    .project-card h3, .project-card p {
+        margin: 10px 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .about-image img {
+        max-width: 200px;
+        height: 200px;
+    }
+
+    .project-card {
+        width: 100%;
+    }
+}
